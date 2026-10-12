@@ -85,8 +85,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",        
-        "bbs.alipansou.com:443,www.mfyx.cn:443,www.wuduanyun.com:443,cf.itv888.cn:443,cdn.7zz.cn:443,cf.877774.xyz:443,baota.us.kg:443,tt.78607323.xyz:443,www.bis.gov:443,cf.nyanya.moe:443,www.akasantech.com:443,saas.072159.xyz:443,fn.130519.xyz:443,constitution.congress.gov:443,eii.at:443,224322.xyz:443,cf-cname.xingpingcn.top:443,cf.92555.xyz:443,auto.dolby.dpdns.org:443,www.sofi.com:443,m.iyf.tv:443,www.carousell.sg:443,cf.3666888.xyz:443,www.sage.com:443,www.dbs.com.sg:443,cf.1o.ee:443,cf.xreak.top:443"",
-        
+        "bbs.alipansou.com:443,www.mfyx.cn:443,www.wuduanyun.com:443,cf.itv888.cn:443,cdn.7zz.cn:443,cf.877774.xyz:443,baota.us.kg:443,tt.78607323.xyz:443,www.bis.gov:443,cf.nyanya.moe:443,www.akasantech.com:443,saas.072159.xyz:443,fn.130519.xyz:443,constitution.congress.gov:443,eii.at:443,224322.xyz:443,cf-cname.xingpingcn.top:443,cf.92555.xyz:443,auto.dolby.dpdns.org:443,www.sofi.com:443,m.iyf.tv:443,www.carousell.sg:443,cf.3666888.xyz:443,www.sage.com:443,www.dbs.com.sg:443,cf.1o.ee:443,cf.xreak.top:443",
     ).split(",")
     if h.strip()
 ]
